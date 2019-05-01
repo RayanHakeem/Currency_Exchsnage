@@ -1,0 +1,131 @@
+.P1 {
+    position: absolute;
+    width: 234px;
+    height: 212px;
+    left: 1206px;
+    top: 0px;
+}
+.P2 {
+    position: absolute;
+width: 141px;
+height: 147px;
+left: 649px;
+top: 33px;
+}
+h1 {
+    position: absolute;
+    width: 533px;
+    height: 108px;
+    left: 29px;
+    top: 68px;
+    
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.6);
+}
+.P3 {
+    position: absolute;
+width: 166.95px;
+height: 147px;
+left: 799px;
+top: 29px;
+}
+.P4 {
+    position: absolute;
+width: 141px;
+height: 147px;
+left: 649px;
+top: 33px;
+}
+h2 {
+    position: absolute;
+width: 843px;
+height: 79px;
+left: 29px;
+top: 245px;
+
+font-family: Cabin;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 78px;
+
+color: #9B6464;
+}
+.B9 {
+    position: absolute;
+width: 320px;
+height: 81px;
+left: 721px;
+top: 393px;
+}
+.B1 {
+    position: absolute;
+width: 288px;
+height: 79px;
+left: 1121px;
+top: 267px;
+}
+.B2 {
+    position: absolute;
+width: 288px;
+height: 79px;
+left: 1125px;
+top: 377px;
+}
+.B3 {
+    position: absolute;
+width: 288px;
+height: 79px;
+left: 1121px;
+top: 487px;
+}
+.B4 {
+    position: absolute;
+width: 288px;
+height: 79px;
+left: 1121px;
+top: 597px;
+}
+.B5 {
+    position: absolute;
+width: 288px;
+height: 79px;
+left: 1125px;
+top: 707px;
+}
+.B6 {
+    position: absolute;
+width: 288px;
+height: 79px;
+left: 1121px;
+top: 823px;
+}
+.B7 {
+    position: absolute;
+    width: 529px;
+    height: 81px;
+    left: 616px;
+    top: 851px;
+}
+.B8{
+    position: absolute;
+    width: 288px;
+    height: 95px;
+    left: 1125px;
+    top: 922px;
+    
+}
+
+img1{
+    position: absolute;
+    width: 965px;
+    height: 682px;
+    left: 0px;
+    top:922px;
+}
