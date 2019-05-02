@@ -14,7 +14,7 @@ $(document).ready(function() {
         console.log(amount);
         $.ajax ({
             method: 'GET',
-            url: 'http://data.fixer.io/api/convert?access_key=807dbebc5d76a4b8e1e09be7a9c28bd1&from=SAR&to=USD&amount='+amount,
+            url: 'http://data.fixer.io/api/convert?access_key=&from=SAR&to=USD&amount='+amount,
             
             success : function (result) {
                 $('#result').val(result.result +'USD');
@@ -31,7 +31,7 @@ $(document).ready(function() {
         console.log(amount);
         $.ajax ({
             method: 'GET',
-            url: 'http://data.fixer.io/api/convert?access_key=807dbebc5d76a4b8e1e09be7a9c28bd1&from=SAR&to=EUR&amount='+amount,
+            url: 'http://data.fixer.io/api/convert?access_key=&from=SAR&to=EUR&amount='+amount,
             
             success : function (result) {
                 $('#result').val(result.result +'EUR');
@@ -48,7 +48,7 @@ $(document).ready(function() {
         console.log(amount);
         $.ajax ({
             method: 'GET',
-            url: 'http://data.fixer.io/api/convert?access_key=807dbebc5d76a4b8e1e09be7a9c28bd1&from=USD&to=SAR&amount='+amount,
+            url: 'http://data.fixer.io/api/convert?access_key=&from=USD&to=SAR&amount='+amount,
             
             success : function (result) {
                 $('#result').val(result.result + 'SAR');
@@ -65,7 +65,7 @@ $(document).ready(function() {
         console.log(amount);
         $.ajax ({
             method: 'GET',
-            url: 'http://data.fixer.io/api/convert?access_key=807dbebc5d76a4b8e1e09be7a9c28bd1&from=USD&to=EUR&amount='+amount,
+            url: 'http://data.fixer.io/api/convert?access_key=&from=USD&to=EUR&amount='+amount,
             
             success : function (result) {
                 $('#result').val(result.result+'EUR');
@@ -82,7 +82,7 @@ $(document).ready(function() {
         console.log(amount);
         $.ajax ({
             method: 'GET',
-            url: 'http://data.fixer.io/api/convert?access_key=807dbebc5d76a4b8e1e09be7a9c28bd1&from=EUR&to=SAR&amount='+amount,
+            url: 'http://data.fixer.io/api/convert?access_key=&from=EUR&to=SAR&amount='+amount,
             
             success : function (result) {
                 $('#result').val(result.result+'SAR');
@@ -99,7 +99,7 @@ $(document).ready(function() {
         console.log(amount);
         $.ajax ({
             method: 'GET',
-            url: 'http://data.fixer.io/api/convert?access_key=807dbebc5d76a4b8e1e09be7a9c28bd1&from=EUR&to=USD&amount='+amount,
+            url: 'http://data.fixer.io/api/convert?access_key=&from=EUR&to=USD&amount='+amount,
             
             success : function (result) {
                 $('#result').val(result.result+'USD');
